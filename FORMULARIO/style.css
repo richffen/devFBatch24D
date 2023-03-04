@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(248, 231, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Verdana";
+    margin-top: 2%;
+
+
+}
+
+h1{
+    font-weight: bold;
+    padding: 70px;
+}
+
+.Recordar{
+    display: block;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.Forma{
+    background-color: white;
+    height: 80%;
+    width: 30%;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+
+input{
+    background-color: antiquewhite;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    outline: none;
+}
+
+#entrar{
+    background-color: rgb(194, 166, 166);
+    text-transform: uppercase;
+}
+
+
+.icono{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #dddddd;
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+    transition: 3s ease-in-out;
+}
